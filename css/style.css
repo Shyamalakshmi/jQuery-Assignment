@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: #eeeeee;
+ }
+
+body, html{}
+
+#mainWrapper{
+   
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    max-width: 1500px;
+}
+
+#button1{
+    width: auto;
+    height: auto;
+    margin: 2% auto;
+    background-color:  #b0e0e6;
+    position:relative;
+    left: 40%;
+    display: none;
+}
+#button2{
+    width: auto;
+    height: auto;
+    margin: 2% auto;
+    background-color:  #b0e0e6;
+    position:relative;
+    left: 40%;
+    display: none;
+}
+#button3{
+    width: auto;
+    height: auto;
+    margin: 2% auto;
+    background-color:  #b0e0e6;
+    position:relative;
+    left:70%;
+    display: none;
+}
+
+
+#repoTable {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+#issues {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+#downloads {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+#loader {
+    position:absolute;
+    left: 42%;
+    top: 35%;
+    display: none;
+}
+table, th, tr {
+    margin: 0 auto;
+    border: 1px solid black;
+}
